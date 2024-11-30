@@ -177,6 +177,40 @@ def append_image_metadata(message):
                     input_msg = [input_msg, PIL.Image.open(fi.path)]
     return input_msg
 
+from IPython.display import display, Markdown
+import sys
+
+def streaming_markdown(iterator):
+    # Initialize an empty list to cache the strings
+    cached_strings = []
+
+    # Iterate over the iterator
+    for string in iterator:
+        if hasattr(string, 'text'):
+            string = string.text
+        # Print the string
+        if isinstance(string, str):
+            print(string, end='')
+        else:
+            raise ValueError("Expected a string or a generator that yields strings")
+
+        # Cache the string
+        cached_strings.append(string)
+
+        # Flush the output to ensure immediate printing
+        sys.stdout.flush()
+
+    # Combine all cached strings into a single string
+    full_string = ''.join(cached_strings)
+
+    # Clear the output
+    from IPython.display import clear_output
+    clear_output(wait=True)
+
+    # Render the full string as Markdown and display it
+    display(Markdown(full_string))
+    return full_string
+
 if __name__ == "__main__":
     #load_env()
     # package_name = 'cellpose'
