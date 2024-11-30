@@ -1,7 +1,7 @@
 
 def pkg_sys_prompt(package_name) -> str:
     # Create a system prompt for the model
-    system_prompt = f"""You are a helpful AI assistant specialized in analyzing Jupyter notebooks and explaining how to use the {package_name} package. Your goal is to provide clear, concise, and executable guidance.
+    system_prompt = f"""You are a helpful AI assistant specialized in analyzing github repo contents including python scripts, makrdowns, jupyter notebooks, etc and explaining how to use the {package_name} package. Your goal is to provide clear, concise, and executable guidance.
 
 ## Response Guidelines
 
