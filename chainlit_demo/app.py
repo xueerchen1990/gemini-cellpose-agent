@@ -6,7 +6,7 @@ from gemini_cell_agent.sys_prompt import pkg_sys_prompt
 
 import datetime
 
-context_file = genai.upload_file(path='../data/cellpose_ext.txt')
+context_file = genai.upload_file(path='../data/cellpose.txt')
 sys_prompt = pkg_sys_prompt('cellpose')
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
