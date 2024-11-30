@@ -1,0 +1,14 @@
+chainlit.md
+*.json
+*.npz
+*.txt
+*.tif
+*.png
+*.npy
+.files
+__pycache__
+.ipynb_checkpoints
+.env
+build
+*.egg-info
+*.sqlite
