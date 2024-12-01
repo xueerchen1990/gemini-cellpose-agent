@@ -2,6 +2,8 @@
 
 Gemini Cellpose Agent is an automated tool designed to assist in cell research using the Gemini generative AI model. This agent can answer questions about cellpose, explain cell image segmentation, and even generate Python code to segment cell images.
 
+<iframe width="800" height="500" src="https://www.youtube.com/embed/8gkyAr_OUrQ?si=HA5yDJdCkQwqGqRE?vq=hd720p;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Features
 
 - **Interactive Chat**: Engage in a conversational interface to ask questions about cellpose and cell image segmentation.
