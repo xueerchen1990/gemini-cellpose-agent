@@ -22,6 +22,7 @@ To install the Gemini Cellpose Agent, follow these steps:
 2. **Install Dependencies**:
    ```sh
    pip install -r requirements.txt
+   pip install .
    ```
 
 3. **Set Up Environment Variables**:
@@ -31,6 +32,9 @@ To install the Gemini Cellpose Agent, follow these steps:
 
 ## Usage
 
+0. **Download Data**:
+   - Download the `cellpose.txt` file and sample images from [Kaggle](https://www.kaggle.com/datasets/xueerchen/cellpose-github-repo-and-sample-images).
+
 1. **Start the Chat Interface**:
    ```sh
    cd chainlit_demo
@@ -38,7 +42,7 @@ To install the Gemini Cellpose Agent, follow these steps:
    ```
 
 2. **Interact with the Agent**:
-   - Open your browser and navigate to the provided URL.
+   - Open your web browser and navigate to [http://localhost:7777](http://localhost:7777) to access the demo.
    - Use the chat interface to ask questions or request code generation.
 
 ## Example Queries
