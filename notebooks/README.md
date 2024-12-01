@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Jupyter notebook demonstrating the use of a cell segmentation tool powered by the Gemini API. The notebook is hosted on Kaggle and can be accessed [here](https://www.kaggle.com/code/xueerchen/xueer-s-cellpose-agent-powered-by-gemini-1-5-flash).
+I created a Jupyter notebook demonstrating the use of a cellpose agent powered by the Gemini API. The notebook is hosted on Kaggle and can be accessed [here](https://www.kaggle.com/code/xueerchen/xueer-s-cellpose-agent-powered-by-gemini-1-5-flash).
 
 ## Prerequisites
 
